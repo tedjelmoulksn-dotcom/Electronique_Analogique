@@ -1,0 +1,40 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\tp2_edcm.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\tp2_edcm.dsn")
+      (Path "Design Resources" ".\tp2_edcm.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\tp2_edcm.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 952 332 664"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 952 0 332")
+        (Scroll "-453 84")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 952 1904 0 332")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path "E:\0\TP2_EDCM.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "TP_Etudiant"))

@@ -1,0 +1,6 @@
+* source RC DE BASE
+R_R         VE VS  1k TC=0,0 
+C_C         0 VS  0.1u  TC=0,0 
+V_V         VE 0  AC 1V
++SIN 0V 1V 3183Hz 0 0 0
+R_Ru         0 VS  1k TC=0,0 
