@@ -1,21 +1,27 @@
-# Analogue Electronics Laboratories
+# Analog Electronics Laboratory
 
-Laboratory studies in analogue circuits: RC responses, active filters, transistor stages, operational amplifiers and instrumentation amplification. Reports are accompanied by original OrCAD/PSpice project files.
+Laboratory studies of analog circuits, combining experimental reports with original OrCAD/PSpice project material.
+
+## Technical scope
+
+| Study | Focus |
+| --- | --- |
+| Measurement and waveform experiments | Oscilloscope use, modulation and comparators |
+| Active filters | Filter synthesis and circuit response |
+| Transistor circuits | Biasing and amplifier configurations |
+| Integrated components | Operational-amplifier circuits and instrumentation amplification |
+| RC circuit simulations | Time-domain and frequency-domain behaviour in archived OrCAD projects |
 
 ## Repository guide
 
-| Location | Contents |
-|---|---|
-| [docs/](docs/) | Laboratory reports and circuit studies |
-| [assets/](assets/) | Supporting photographs |
-| [archive/](archive/) | OrCAD schematics, project files and simulation material |
+- [docs](docs/): laboratory reports, exercise responses and supporting notes.
+- [archive](archive/): original circuit projects, simulation outputs and historical source variants.
+- [assets](assets/): experimental photographs.
 
-## Getting started
+Start with the explicitly named TP1–TP4 reports in `docs/`; the additional documents retain their original names to preserve their source identity. The single-supply op-amp report covers instrumentation-amplifier work.
 
-Read the report for the circuit of interest, then open its `.opj` or `.DSN` files in the compatible OrCAD/PSpice environment. Original project directories retain their internal file layout.
+## Working with the circuits
 
-## Project context
+Use the reports to identify the circuit and measurement conditions. Open the corresponding original project in a compatible OrCAD/PSpice installation, preserving its internal directory structure and dependencies.
 
-PCA, LabVIEW and optical-biosensing documents have been grouped with their corresponding repositories. This repository focuses on analogue circuits.
-
-A PCA script with its original encoding is preserved under `archive/pca_original/`; the organised PCA studies are in Analyse_de_Donnees.
+This repository contains simulation and laboratory material. It does not provide a newly validated hardware design or a single automated build. A legacy PCA script is retained as historical material rather than presented as an analog-circuit implementation.
