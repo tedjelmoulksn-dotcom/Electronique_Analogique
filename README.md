@@ -2,6 +2,10 @@
 
 Laboratory studies of analog circuits, combining experimental reports with original OrCAD/PSpice project material.
 
+![Electronique Analogique project overview](assets/project-overview.svg)
+
+*Technical study overview based on the available repository material.*
+
 ## Technical scope
 
 | Study | Focus |
@@ -16,7 +20,7 @@ Laboratory studies of analog circuits, combining experimental reports with origi
 
 - [docs](docs/): laboratory reports, exercise responses and supporting notes.
 - [archive](archive/): original circuit projects, simulation outputs and historical source variants.
-- [assets](assets/): experimental photographs.
+- [assets](assets/): historical plots and the study overview.
 
 Start with the explicitly named TP1–TP4 reports in `docs/`; the additional documents retain their original names to preserve their source identity. The single-supply op-amp report covers instrumentation-amplifier work.
 
